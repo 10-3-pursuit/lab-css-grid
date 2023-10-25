@@ -1,5 +1,21 @@
 /* Write your CSS here! */
 
+.header{
+  white-space: nowrap;
+  display: grid;
+  grid-template-rows: 80px;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-auto-columns: minmax(100px, auto);
+}
+
+.primary-content{
+  
+  display: grid;
+  grid-template-columns: 1fr 3.5fr ;
+  grid-auto-columns: minmax(100px, auto);
+}
+
+
 /* Do not change the CSS below. */
 
 .header {
