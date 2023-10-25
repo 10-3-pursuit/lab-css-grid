@@ -1,5 +1,46 @@
 /* Write your CSS here! */
 
+.primary-content {
+  display: grid;
+  grid-template-columns: 370px 1fr;
+  grid-column: 1 / 4;
+}
+
+
+.main {
+  padding-bottom: 80px;
+}
+
+
+.header {
+ grid-column: 1 / span 4;
+}
+
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 90px 800px 80px;
+}
+
+.logo {
+  margin-top: 8px;
+}
+
+.menu ul{
+  margin-left: 365px;
+}
+
+.menu {
+  margin-top: -70px;
+}
+
+
+.footer {
+  grid-column: 1/ 4;
+  margin-top: 30px;
+  margin-bottom: -5px;
+}
 /* Do not change the CSS below. */
 
 .header {
