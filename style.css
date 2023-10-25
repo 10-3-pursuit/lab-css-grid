@@ -4,6 +4,10 @@
   display:grid;
   grid-template-columns: 1fr 3fr;
 }
+.main {
+  display:grid;
+  grid-template-columns: 1fr 3fr;
+}
 
 /* Do not change the CSS below. */
 
