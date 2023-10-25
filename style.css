@@ -1,4 +1,17 @@
 /* Write your CSS here! */
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr)
+}
+
+.primary-content {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: max-content;
+  text-align: center;
+}
+
+/* .sidebar */
 
 /* Do not change the CSS below. */
 
