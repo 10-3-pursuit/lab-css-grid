@@ -1,5 +1,9 @@
 /* Write your CSS here! */
 
+.primary-content {
+  display:grid;
+}
+
 /* Do not change the CSS below. */
 
 .header {
