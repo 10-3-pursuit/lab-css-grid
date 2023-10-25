@@ -1,9 +1,17 @@
-/* Write your CSS here! */
 
-/* Do not change the CSS below. */
+/* .header * {
+  border: 1px solid gold;
+} */
+
+body {
+  font-family: serif;
+}
 
 .header {
   background: #4242ea;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+
 }
 
 .logo img {
@@ -24,6 +32,11 @@
 .menu a {
   color: white;
   text-decoration: none;
+}
+
+.primary-content {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
 }
 
 .sidebar {
