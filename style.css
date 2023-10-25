@@ -1,11 +1,69 @@
 /* Write your CSS here! */
+html,
+body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px
+}
+.header {
+  background: #4242ea;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-auto-rows: 90px;
+}
+.logo img {
+  height: 50px;
+  margin: 15px 0 0 15px;
+  width: auto;
+}
+.menu{
+  padding-left: 30px;
+  grid-column: 3 / 13;
+}
+.menu ul {
+  padding: 0;
+}
+
+.menu ul li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar {
+  background: #2d2d2d;
+  color: white;
+  text-align: center;
+}
+
+.main {
+  background: #ececec;
+  height: 750px;
+  text-align: center;
+}
+
+.footer {
+  height: 100px;
+  background: yellow;
+  text-align: center;
+}
+
+.primary-content {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
 
 /* Do not change the CSS below. */
 
-.header {
+/* .header {
   background: #4242ea;
-}
-
+} */
+/* 
 .logo img {
   height: 50px;
   margin: 15px 0 0 15px;
@@ -42,4 +100,4 @@
   background: yellow;
   padding: 10px;
   text-align: center;
-}
+} */
