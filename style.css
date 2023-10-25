@@ -7,6 +7,7 @@
 .primary-content {
   display: grid;
   grid-template-columns: 1fr 3fr;
+  box-sizing: border-box;
 }
 
 /* Do not change the CSS below. */
