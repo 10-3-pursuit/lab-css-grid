@@ -11,6 +11,8 @@
 
 body {
   display: grid;
+  padding: 0px;
+  margin: 0px;
   width: 100%;
 }
 
@@ -58,6 +60,6 @@ body {
 
 .footer {
   background: yellow;
-  padding: 10px;
+  padding: 15px;
   text-align: center;
 }
