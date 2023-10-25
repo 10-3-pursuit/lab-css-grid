@@ -1,4 +1,12 @@
 /* Write your CSS here! */
+
+ *,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
 .header {
   display: grid;
   grid-template-columns: repeat(4, 1fr)
