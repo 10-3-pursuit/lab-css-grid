@@ -9,6 +9,9 @@
   grid-template-columns: 1fr 4fr;
 }
 
+.menu {
+  grid-column-start: 2;
+}
 /* Do not change the CSS below. */
 
 .header {
