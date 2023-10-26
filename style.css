@@ -4,10 +4,15 @@
   grid-template-columns: 1fr 3fr;
   box-sizing: border-box;
 }
-
-.menu {
-  text-align: center;
+.header {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
 }
+
+
+/* .menu {
+  text-align: center;
+} */
 
 
 
